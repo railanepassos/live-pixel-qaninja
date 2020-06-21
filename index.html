@@ -1,0 +1,102 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    Na linha abaixo é incluindo um titulo para a pagina, ele será exibido na "Aba" do navegador.-->
+    <title>Pixel - Cadastro de Jogos Clássicos</title>
+
+    <!--
+        Os dois links abaixo referencia um CSS(NES.CSS) pronto na internet. 
+        Ele é capaz de estilizar a minha pagina para que fique parecido com um ambiente de jogo.
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
+    <!--
+        O link abaixo referencia o CSS que eu mesma criei, ultilizado no inicio do desenvolvimento da pagina.
+        Logo ele é "substituido" por um CSS pronto(NES.css) que dará uma aparencia melhor ao projeto que tem relação
+        com jogos.
+    -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--
+        O link abaixo referncia meu arquivo em javascript onde irei interagir com minha pagina e incluir algumas
+        regras de negócio.
+    -->
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+    <!-- Dark dialog -->
+    <section>
+        <dialog class="nes-dialog is-dark" id="modal">
+        <form method="dialog">
+            <p class="title">Novo Jogo</p>
+            <p class="message-show"></p>
+            <menu class="dialog-menu">
+            <button class="nes-btn is-primary">Ok</button>
+            </menu>
+        </form>
+        </dialog>
+    </section>
+
+    <div class="container">
+        <!--    A teg h3 aqui está criando um "Titulo" dentro do corpo da pagina.-->
+        <h3>Novo Jogo</h3>
+    
+        <!--    A tag paragrafo foi incluida antes de cada "Campo de entrada de dados -Input"
+            e "Legenda do campo de entrada de Dados(Input ou Select) - Label  -->
+
+        <!--    A tag paragrafo foi removida ára a imclusão da tag div indicada na documentação do CSS pronto Nes-CSS.
+                Para as div's foi adotado a class 'nes-field" sugerida pela propria documentação do "nes.css'.
+        -->
+        <form id="new-game">
+            <!--    A linha abaixo irá receber o nome do jogo.-->
+            <div class="nes-field">
+                <!--    Este label a seguir refere-se ao elemento "input' de name "game" quando incluido a referência no atributo "for" 
+                    Será exibido na pagina ao lado do campo para preenchimento do nome do jogo--> 
+                <label for="game">Nome</label>
+
+                <!--    A linha abaixo iexibir um campo.-->
+                <input class="nes-input" type="text" name="game" id="gameId" />
+
+            </div>
+
+            <div class="nes-select">
+                <!--    Este label a seguir refere-se ao elemento "select" de name "console" quando incluido a referência no atributo "for"
+                Será exibido na pafina ao lado de um campo para seleção de console referente ao jogo.--> 
+                <label for="cosole">Console</label>
+
+                <!--    A linha abaixo irá exibir uma lista(select) de opções onde poderá ser selecionado quando for incluido um novo jogo.-->
+                <select class="field" name="console" id="">
+                    <option value="" disabled selected>Selecione o Console</option>
+                    <option value="Atari">Atari</option>
+                    <option value="Nitendo">Nitendo</option>
+                    <option value="Master-System">Master System</option>
+                    <option value="Mega-Drive">Mega Drive</option>
+                    <option value="Super-Nitendo">Super Nitendo</option>
+                    <option value="Neo-Geo">Neo Geo</option>
+                </select>
+
+            </div>
+
+            <div class="nes-field">
+                <!--    Este label a seguir refere-se ao elemento "input" de name "year" quando incluido a referência no atributo "for" 
+                    Será exibido na pagina ao lado de um capo para preenchimento do ano de lançamento do game.--> 
+                <label for="year">Ano de Lançamento</label>
+
+                <!--    A linha abaixo irá receber o ano do jogo.-->
+                <input class="nes-input"  type="text" name="" id="gameYear">
+
+            </div>
+               
+            <!--    Botão para submeter/ Cadastrar formulário.
+                Nele temos uma propriedade chamada "onclick" que "chama" a função Cadastrar() criada dentro do javascript.--> 
+            <button id="cadastrar-id" type="submit" class="nes-btn is-success btn-cadastrar">Cadastrar</button>
+
+        </form> 
+
+    </div>
+
+
+</body>
+</html>

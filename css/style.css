@@ -1,0 +1,33 @@
+input, select {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.btn-cadastrar{
+    margin-top: 20px;
+}
+
+.field {
+    width: 200px;
+    border: 1px solid;
+} 
+
+.btn-blue{
+    width: 100px;
+    height: 40px;
+    background-color: #66ff ;
+    border-radius: 3px;
+    color: #ffffff;
+    border: solid 1px;
+}
+
+.btn-blue:hover{
+    background-color: greenyellow;
+    color: #000;
+}
