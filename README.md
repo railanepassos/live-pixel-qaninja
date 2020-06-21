@@ -1,4 +1,4 @@
-Este projeto é um cadastro de games classicos. 
+Este projeto é um cadastro de games classicos baseado em aula oferecida pelo canal qaninja. 
 
 Link da Live: https://www.youtube.com/watch?v=xrISlNSTGAw&t=543s
 
