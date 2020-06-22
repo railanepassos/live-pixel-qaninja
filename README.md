@@ -11,6 +11,7 @@ HTML - Linguagem de marcação
 Criador do HTML - Tim Berners-Lee "Pai da Internet"
 
 Marcações no HTML são  feitas por tags de marcação, algumas delas são:
+
     h1          -> Titulo
     p           -> Paragrafos
     div         -> Box ou divisória
@@ -21,7 +22,7 @@ Marcações no HTML são  feitas por tags de marcação, algumas delas são:
     li          -> Listas
     textarea    -> Caixa tde textos ()/sentenças, frases, paragrafos) - > Entrada de dados 
     img         -> Imagem/ Foto
-
+    
     head        -> Cabeçalho da pagina]
     title       -> Titulo da pagina na Aba
     bosy        -> Corpo da pagina (Tudo que eu quero mostrar para meu usuário)
@@ -33,7 +34,8 @@ CSS     -> Cascading Style Sheets
     Estilizar minha pagina.
     Sintaxe     -> Css Selector
 
-JavaScript      
+JavaScript
+
 ->  Linguagem "Universal"
 ->  Recebeu notoriedade com a entrada do Node.js começou a se popularizar unindo varias comunidades de conhecimento
 ->  Controlar o comportamento de paginas Web
