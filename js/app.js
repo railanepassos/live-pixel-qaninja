@@ -36,11 +36,6 @@ window.onload = function(){
             modal.showModal();
         }
 
-
-
-
-        console.log(form)
-        console.log("Clicou no botão!")
     })
 
 }
