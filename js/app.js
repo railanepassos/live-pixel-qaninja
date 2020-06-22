@@ -32,7 +32,8 @@ window.onload = function(){
             modal.showModal();
 
         }else{
-            console.log()
+            message.innerHTML = "Os dados do jogo foram enviados com sucesso!"
+            modal.showModal();
         }
 
 
