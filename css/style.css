@@ -3,6 +3,10 @@ input, select {
     margin-bottom: 15px !important;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     max-width: 980px;
     margin: 0 auto;
@@ -18,16 +22,3 @@ input, select {
     border: 1px solid;
 } 
 
-.btn-blue{
-    width: 100px;
-    height: 40px;
-    background-color: #66ff ;
-    border-radius: 3px;
-    color: #ffffff;
-    border: solid 1px;
-}
-
-.btn-blue:hover{
-    background-color: greenyellow;
-    color: #000;
-}
