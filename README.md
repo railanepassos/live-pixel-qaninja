@@ -37,15 +37,26 @@ CSS     -> Cascading Style Sheets
 JavaScript
 
 ->  Linguagem "Universal"
+
 ->  Recebeu notoriedade com a entrada do Node.js começou a se popularizar unindo varias comunidades de conhecimento
+
 ->  Controlar o comportamento de paginas Web
+
 ->  Javascript chama-se ECMAScript (Jogada de marketing)
+
 ->  Javascipt não é Java
+
 ->  Brendan Eich é o criado do JavaScript, que trabalhava, na época, na Netscape
-->  Netscape Navigator foi um dos precursores quando se fala em navegador e considerado um dos melhores desenvolvidos na época
+
+->  Netscape Navigator foi um dos precursores quando se fala em navegador e considerado um dos melhores 
+desenvolvidos na época
+
 ->  Netscape Navigator foi desencolcido pela Netscape Communicators nos anos 90
+
 ->  Chrome e firefox desenvolve coisas hoje que já existiam no Netscape nos anos 90
+
 ->  Linguagem orientada a objetos onde conseguimos capturar elementos e criar comportamentos/ eventos para uma determinada pagina
+
 ->  Quem interpreta a linguagem Js ? (Ler o codigo e Renderizar)
     ->  Motor V8
 
