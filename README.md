@@ -1,4 +1,5 @@
-Este projeto é um cadastro de games classicos baseado em aula oferecida pelo canal qaninja. 
+Este projeto foi desenvolvido durante a live oferecida por Fernando Papito do QANinja.
+O objetivo com o exercicio é entender o funcionamento do HTML, CSS e Js para que possamos nos tornar profissionais mais completos durante o desenvolvimento de um código de teste. 
 
 Link da Live: https://www.youtube.com/watch?v=xrISlNSTGAw&t=543s
 
