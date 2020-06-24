@@ -26,11 +26,15 @@
     <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-    <!-- Dark dialog -->
+    <!-- O codigo abaixo faz parte do modelos css. Com ele poderemos criar uma caixa de diálogo "Modal".
+            Essa caisa de dialogo será exibida através de uma chamada no javascript e também será modificado sua mensagem
+            de acordo com a situação.
+    -->
     <section>
         <dialog class="nes-dialog is-dark" id="modal">
         <form method="dialog">
             <p class="title">Novo Jogo</p>
+        <!--    A linha abaixo será modificada no js afim de exibir a mensagem de acordo com a situação.-->
             <p class="message-show"></p>
             <menu class="dialog-menu">
             <button class="nes-btn is-primary">Ok</button>
@@ -40,14 +44,12 @@
     </section>
 
     <div class="container">
-        <!--    A teg h3 aqui está criando um "Titulo" dentro do corpo da pagina.-->
+        <!--    A tag h1 aqui está criando um "Titulo" dentro do corpo da pagina.-->
         <h1>Novo Jogo</h1>
-    
-        <!--    A tag paragrafo foi incluida antes de cada "Campo de entrada de dados -Input"
-            e "Legenda do campo de entrada de Dados(Input ou Select) - Label  -->
 
-        <!--    A tag paragrafo foi removida ára a imclusão da tag div indicada na documentação do CSS pronto Nes-CSS.
+        <!--    A tag div foi incluida na pagina conforme indicada na documentação do CSS pronto Nes-CSS.
                 Para as div's foi adotado a class 'nes-field" sugerida pela propria documentação do "nes.css'.
+                A tag div cria especies de "Caixas" no corpo da minha pagina.
         -->
         <form id="new-game">
             <!--    A linha abaixo irá receber o nome do jogo.-->
@@ -56,14 +58,14 @@
                     Será exibido na pagina ao lado do campo para preenchimento do nome do jogo--> 
                 <label for="game">Nome</label>
 
-                <!--    A linha abaixo iexibir um campo.-->
+                <!--    A linha abaixo irá exibir um campo.-->
                 <input class="nes-input" type="text" name="game" id="gameId" />
 
             </div>
 
             <div class="nes-select">
                 <!--    Este label a seguir refere-se ao elemento "select" de name "console" quando incluido a referência no atributo "for"
-                Será exibido na pafina ao lado de um campo para seleção de console referente ao jogo.--> 
+                Será exibido na pagina ao lado de um campo para seleção de console referente ao jogo.--> 
                 <label for="cosole">Console</label>
 
                 <!--    A linha abaixo irá exibir uma lista(select) de opções onde poderá ser selecionado quando for incluido um novo jogo.-->
@@ -90,7 +92,7 @@
             </div>
                
             <!--    Botão para submeter/ Cadastrar formulário.
-                Nele temos uma propriedade chamada "onclick" que "chama" a função Cadastrar() criada dentro do javascript.--> 
+                Iremos ultilizar posteriormente o valoe "btn-cadastrar" para criar comportamentos dentro do javascript.--> 
             <button id="cadastrar-id" type="submit" class="nes-btn is-success btn-cadastrar">Cadastrar</button>
 
         </form> 

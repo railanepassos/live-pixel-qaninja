@@ -20,10 +20,7 @@ window.onload = function(){
     btCadastrar.addEventListener("click", function(event){
         //  Executar de forma procedural
         event.preventDefault()
-        var form =  document.querySelector("#new-game");
-
         var name = document.querySelector("#gameId");
-
         var modal = document.querySelector("#modal");
         var message = document.querySelector(".message-show");
 
